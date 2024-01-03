@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" BasicCache DICTIONARY"""
+""" Basic dictionary """
 from base_caching import BaseCaching
 
 class BasicCache(BaseCaching):
@@ -21,4 +21,3 @@ class BasicCache(BaseCaching):
         if key and key in self.cache_data:
             return self.cache_data[key]
         return None
-
